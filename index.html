@@ -1,15 +1,20 @@
+<!--Esta es la estrutura base de un archivo HTML-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My web site</title>
+    <title>Lorem ipsum</title>
+    <!--Con la etiqueta "Link" puede gregar los documentos CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Con la etiqueta "Link" pondemos agragar el icono de una pagina web-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!--Todas las etiquetas "H" son titulare-->
     <!--Solo se agrega una etiqueta H1 porque tiene un valor semantico, pero si puede agregar varios H2, H3, H4, H5, etc-->
-    <h1>Web site</h1>
+    <h1>Lorem ipsum</h1>
     <!--Con la etiqueta "BR" solo agrega espaciado"-->
     <br />
     <!--Con la etiqueta "P" son parrafos-->
@@ -42,7 +47,11 @@
     <cite>Lorem ipsum</cite>
     <!--Con la etiqueta "A" podemos hacer enlaces-->
     <!--Con la etiqueta "A" podemos agregar imagenes-->
-    <a href="https://www.lipsum.com/feed/html">Ir a Lorem Ipsum</a>
-    <a href="img/logo.png">Ir al logo</a>
+    <!--Con el atributo "Target" podemo hacer que un enlace se abra en una pagina en blanco-->
+    <a target="_blank" href="https://www.lipsum.com/feed/html">Ir a Lorem Ipsum</a>
+    <a target="_blank" href="img/logo.png">Ir al logo</a>
+    <!--Con la etiqueta "Script" podemos agregar codigo JavaScritp-->
+    <!--Con el atributo "Src" podemos agregar archivos JavaScritp sin la necesidad de ensucial el codigo HTML-->
+    <script src="/js/scritps.js"></script>
 </body>
 </html>
